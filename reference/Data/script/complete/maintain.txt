@@ -1,0 +1,14 @@
+refresh.py用于刷新stock_2016，也就是主表
+shortticks.py用于刷新委比和量比表，以计算行业评分
+industry.py用于刷新股票评分和行业评分
+industrycount.py用于刷新股票评分和行业评分的计数数据
+returnModel.py用于刷新预测数据
+
+#######################################################
+
+stock_2016系列是主表，每天刷新
+short_ticks是委比暂存表，每天刷新
+stock_evaluate是行业评价表，每天刷新
+industry_tag纪录行业和行业id，并记录行业排名，每天刷新
+stock_info是纪录股票信息的表，不准备刷新
+predict是记录每天预测的表，每天刷新
